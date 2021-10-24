@@ -35,3 +35,40 @@ header{
     justify-content: space-between;
     
 }
+
+
+/* Centrar logo en la Barra de navegacion */
+/* 
+        Barra De Navegacion
+__________________________________________
+|   logo                    .inicio      |
+|                           .tutoriales  |
+|                            .contactos  |
+__________________________________________
+*/
+.logo{
+    /* Ponemos esta medida porque este tamaño es la barra de navegacion establecido por HEADER que es 80px de height(altura) */
+    height:80px;
+    /* Propiedad Espacial para centrar el logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* 
+            Barra De Navegacion
+    __________________________________________
+    |                            .inicio     |
+    |   logo                     .tutoriales |
+    |                            .contactos  |
+    __________________________________________
+
+    Listo lo tenemos centrado
+
+    */
+
+  
+}
+
+.logo h1 b{
+    color:  #46a2fd;
+}
