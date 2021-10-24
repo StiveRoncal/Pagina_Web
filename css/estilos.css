@@ -21,3 +21,17 @@ header{
     /* Propiedad Ganadora para posicion de otra etiqueta */
     z-index: 2;/*verificar*/
 }
+
+/* Posicionamiento de Logo y Enlazes en la barra de navegacion */
+.header-content{
+    /* Aliniacion de Espacio |______ | Eso el max witd de espacio pero  */
+    max-width: 1200px;
+    /* Centramos la barra | ______ | */
+    margin: auto;
+    
+    /* Poner del lado de Otro con una propiedad Especial*/
+    display: flex;
+    /* Dividir espacio de logo y enlaze |  logo___________enlaces  | */
+    justify-content: space-between;
+    
+}
