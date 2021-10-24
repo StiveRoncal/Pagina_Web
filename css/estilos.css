@@ -1,7 +1,23 @@
 *{
+    /* Estilos Generales */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
+}
+
+header{
+    /* Estilos para la barra de Navegacion*/
+
+    /* Posicionar hacia la parte superior del navegador */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 4px 25px -22px black;
+    /* Propiedad Ganadora para posicion de otra etiqueta */
+    z-index: 2;/*verificar*/
 }
