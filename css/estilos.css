@@ -7,6 +7,7 @@
     font-family: sans-serif;
 }
 
+/* MEDIDA GENERAL PARA CREAR BARRA INICIO */
 header{
     /* Estilos para la barra de Navegacion*/
 
@@ -21,14 +22,19 @@ header{
     /* Propiedad Ganadora para posicion de otra etiqueta */
     z-index: 2;/*verificar*/
 }
+/* MEDIDA GENERAL PARA CREAR BARRA FINAL */
+
+
 
 /* Posicionamiento de Logo y Enlazes en la barra de navegacion */
+
+/* 1. CAJA PRINCIPAL */
 .header-content{
     /* Aliniacion de Espacio |______ | Eso el max witd de espacio pero  */
     max-width: 1200px;
     /* Centramos la barra | ______ | */
     margin: auto;
-    
+   
     /* Poner del lado de Otro con una propiedad Especial*/
     display: flex;
     /* Dividir espacio de logo y enlaze |  logo___________enlaces  | */
@@ -36,6 +42,7 @@ header{
     
 }
 
+/* 1.1 Subcaja  LOGO */
 
 /* Centrar logo en la Barra de navegacion */
 /* 
@@ -71,4 +78,67 @@ __________________________________________
 
 .logo h1 b{
     color:  #46a2fd;
+}
+
+
+/* 1.2 Subcaja MENU */
+/*Centrar Enlaces y separar los Letras de Enlazes  */
+
+/* Medida de largo General de esta propiedad */
+.menu{
+    height: 80px;
+    
+}
+/* medida de espacio de Todo 80px a todo 100% en sub etiqueta*/
+.menu nav{
+    height: 100%;
+   
+}
+
+/* Meidad para Lista desordenada de NAV>UL */
+   /* 
+            Barra De Navegacion
+    __________________________________________
+    |                            .inicio     |
+    |   logo                     .tutoriales |
+    |                            .contactos  |
+    __________________________________________
+
+    De asi 
+
+    */ 
+
+.menu nav ul{
+    /* medida de espacio de Todo 80px a todo 100% de sub sub etiqueta */
+    height: 100%; 
+
+    /* Solo para separar del uno del otro */
+    display: flex;
+   
+    /* Eliminar puento de lista */
+    list-style: none;
+
+     /* 
+            Barra De Navegacion
+    ________________________________________________________________
+    |   |                         InicioTutorialesContactos|   |
+    |   |logo                                              |   |
+    |   |                                                  |   |
+    _________________________________________________________________
+
+    A estar haci
+*/
+    
+}
+
+.menu nav ul li{
+    /* medida de espacio de Todo 80px a todo 100% de sub sub sub nav>ul>li etiqueta */
+    height: 100%;
+    /* Separar Espacio de letras enlaces */
+    margin: 0 20px; /* top - buttom*/
+
+    /* Propiedad Espacial para centrar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
