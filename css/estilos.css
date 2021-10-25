@@ -34,7 +34,7 @@ header{
     max-width: 1200px;
     /* Centramos la barra | ______ | */
     margin: auto;
-   
+
     /* Poner del lado de Otro con una propiedad Especial*/
     display: flex;
     /* Dividir espacio de logo y enlaze |  logo___________enlaces  | */
@@ -135,10 +135,51 @@ __________________________________________
     /* medida de espacio de Todo 80px a todo 100% de sub sub sub nav>ul>li etiqueta */
     height: 100%;
     /* Separar Espacio de letras enlaces */
-    margin: 0 20px; /* top - buttom*/
+    margin: 0 20px; /* top - right*/
 
     /* Propiedad Espacial para centrar */
     display: flex;
     justify-content: center;
     align-items: center;
+
+      /* 
+            Barra De Navegacion
+    ________________________________________________________________
+    |   |                                                       |   |
+    |   |logo                    Inicio  Tutoriales  Contactos  |   |
+    |   |                                                       |    |
+    _________________________________________________________________
+    Haci se le mira ya listos y centrado
+
+*/
+    /* Esto va relacionado con .menu-selected para relacionar los enlazes */
+    position: relative;
 }
+
+/* Poner Linea en un enlaze */
+/* Creadcion de pseudoclase */
+
+.menu-selected:before{
+    /* Contenido en Blanco */
+    content: '';
+    /* Medidas para la linea */
+    width: 100%;
+    height: 4px;
+    background: #46a2fd;
+    /* Posicionar en algo que no se */
+    position: absolute;
+    top: 0;
+    left: 0;
+
+      /* 
+            Barra De Navegacion
+    ________________________________________________________________
+    |   |                                ____             |   |
+    |   |logo                    Inicio  blog  Contactos  |   |
+    |   |                                                 |    |
+    _________________________________________________________________
+    Haci se le mira ya listos y centrado
+    
+*/
+}
+
