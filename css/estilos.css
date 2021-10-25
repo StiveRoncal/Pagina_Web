@@ -186,10 +186,15 @@ __________________________________________
 /* Solo coloreamos todo los enlaze */
 .menu nav ul li a{
     color: #777777;
+    transform: color 300ms;
 }
 /* Espeficiar un color en una clase creada en <a class=""></a> */
 .menu .text-menu-selected{
     color: #46a2fd;
 }
 
+/* Aplicaion de efecto hover */
+.menu nav ul li a:hover{
+    color: #46a2fd;
+}
 
