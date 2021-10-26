@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 *{
     /* Estilos Generales */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* MEDIDA GENERAL PARA CREAR BARRA INICIO */
@@ -299,3 +300,12 @@ DE asi
     margin-bottom: 20px;
 }
 
+/* Poner estilos a P */
+.container-info-cover p{
+    color: #fff;
+    /* Agrandando letra */
+    font-size: 20px;
+
+    font-weight: 300;
+    
+}
