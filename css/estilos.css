@@ -288,3 +288,14 @@ DE asi
 
     ******************************/
 }
+
+/* Poner estilos en h1  */
+.container-info-cover h1{
+    /* Medidas de LEtras */
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+    /* Alejar al p con margin-bottom */
+    margin-bottom: 20px;
+}
+
