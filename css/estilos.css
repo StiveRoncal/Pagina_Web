@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 *{
     /* Estilos Generales */
     margin: 0;
@@ -187,6 +187,7 @@ __________________________________________
 /* Solo coloreamos todo los enlaze */
 .menu nav ul li a{
     color: #777777;
+    font-size: 18px;
     transform: color 300ms;
 }
 /* Espeficiar un color en una clase creada en <a class=""></a> */
