@@ -209,7 +209,7 @@ __________________________________________
     /* Para no desmaquetar y el contenido este junto con ello */
     position: relative;
     /* Para separar de la barra de Navegacion por que su height es de 80px en header, Asi poder ver las letras de la portada */
-    top: 80px;
+    margin-top: 80px;
     /* Poniendo imagen con propideda especial*/
     background-image: url(../img/Gol\ D\ roger\ execute.png);
     /* Propiedad bg para centrar la imagen estandar no centrar total mente */
@@ -309,4 +309,16 @@ DE asi
 
     font-weight: 300;
     
+}
+
+/*************CONTAINER CONTENT - ARTICULOS ***********************/
+
+.container-content{
+    /* Medidas Generales */
+    width: 1200px;
+    margin: auto;
+    
+    margin-top: 40px;
+    
+   /*Corregimos el container-cover : top:80px a margin-top: 80px para solucionar error de ver los articulo a media sobre la portada*/
 }
