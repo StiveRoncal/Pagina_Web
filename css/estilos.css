@@ -218,7 +218,7 @@ __________________________________________
     background-repeat: no-repeat;
 }
 
-/*Creacion de capa Azul*/
+/*Creacion de capa Azul / con esta pesudo clase*/
 .container-cover:before{
     /* Contenido Vacio */
     content: '';
@@ -233,4 +233,58 @@ __________________________________________
     top: 0;
     left: 0;
  
+}
+
+
+
+/* Centrar letras y posicionarlo */
+ /*******************
+       PORTADA
+       
+     _________________________________________
+     | Gold Roger                             |
+     |                                        |
+     |                                        |
+     |                                        |
+     |                                        |
+     |                                        |
+    ___________________________________________
+
+DE asi 
+    ******************************/
+.container-info-cover{
+    
+    /*Medida general de espacio*/
+    max-width: 800px;
+    height: 500px;
+    /* Centrarlo */
+    margin: auto;
+    text-align: center;
+    /* Centrar con propiedad Espacial
+    pero los separa al costado del otro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Solucionar para que esten en columna */
+    flex-direction: column;
+
+    /*Posicon relative para que agare el z-index*/
+    position: relative;
+    /*que este sobre puesto de todo, esto hace que las letras sean estes sobre el color y la imagen */
+    z-index: 1;
+    /*******************
+       PORTADA
+       
+     _________________________________________
+     |                                        ||                                        |
+     |             Gol d Roger                           |              pirate
+     |                                        |
+     |                                        |
+     |                                        |
+     |                                        |
+    ___________________________________________
+
+
+    ******************************/
 }
