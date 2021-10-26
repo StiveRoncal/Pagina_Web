@@ -198,3 +198,22 @@ __________________________________________
     color: #46a2fd;
 }
 
+/*****************************PORTADA*************************************/
+/* Primera Caja de Portada */
+.container-cover{
+    /* Medidas Generales */
+    width: 100%;
+    height: 500px;
+    /* Para no desmaquetar y el contenido este junto con ello */
+    position: relative;
+    /* Para separar de la barra de Navegacion por que su height es de 80px en header, Asi poder ver las letras de la portada */
+    top: 80px;
+    /* Poniendo imagen con propideda especial*/
+    background-image: url(../img/Gol\ D\ roger\ execute.png);
+    /* Propiedad bg para centrar la imagen estandar no centrar total mente */
+    background-position: center;
+    /* Mostrar imagen completa y evitae que se repita cuando lo agrandemos o achicamos */
+    background-size: cover;
+    /* No repetir la imagen */
+    background-repeat: no-repeat;
+}
