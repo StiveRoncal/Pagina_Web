@@ -319,6 +319,25 @@ DE asi
     margin: auto;
     
     margin-top: 40px;
-    
+
    /*Corregimos el container-cover : top:80px a margin-top: 80px para solucionar error de ver los articulo a media sobre la portada*/
+}
+
+/* Medidas de Articulos */
+article{
+    /* Medidas */
+    width: 100%;
+
+    /*Espacioad de adentro*/
+    padding: 20px;
+
+    /* Espacidos */
+    padding-bottom: 40px;
+
+    /* Mini sombra de contorno*/
+    box-shadow: -10px 0 20px -30px black;
+    border-radius: 6px;
+    
+    
+    
 }
