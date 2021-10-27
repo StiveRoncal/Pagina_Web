@@ -358,3 +358,22 @@ article:before{
     left: 0;
     background: #46a2fd;
 }
+
+/* Decoracion de letra de h1 */
+article h1{
+    /* Separar los h1 mas alejados */
+    margin-top: 20px;
+    /* Tamaño de letras ancho */
+    font-weight: 500;
+    /* Tamaño de letra  */
+    font-size: 40px;
+}
+
+/* Decoraccion de P: parrafo */
+article p{
+    /* Medidas de sepracion */
+    margin-top: 20px;
+    /* Tamaño de letra */
+    font-size: 18px;
+    color: #3c3c3c;
+}

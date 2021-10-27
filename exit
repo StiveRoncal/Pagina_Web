@@ -1,0 +1,21 @@
+[33m878df67[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Creacion de Linea Azul superior en css
+[33m6f50701[m Medidas para Articles y Espacio
+[33m275d125[m Centramos todos los article y ponemos medidas a contenedor de articles, Corregimos bug de top:80px a margin-top:80px
+[33m0ac0e1c[m Creando Etiqueta de Article en un Contenedor
+[33m76a89cd[m Coloreando P y Poniendo Letras de Google Fonts
+[33me29f38f[m Colorean y posicionando el H1 de PORTADA
+[33m3a10ee7[m Centrar H1 y P de Portada
+[33m3518862[m Creacion de Capa azul Transparente y Posicionamiento dentro de la portada
+[33mbf29e3d[m Posiciar las letras  para visualizarlo, Poner imagen en portada y Centrarlocon medidas Generales
+[33m2c3a29b[m Crear Portada con Dos contenedores con un h1 y Parrafo
+[33mb57e22f[m[33m ([m[1;33mtag: version1.0[m[33m, [m[1;31morigin/main[m[33m)[m Aplicacion de Efecto cover en Enlaces y transcion de esto en 300 miliSegundos
+[33mf4c85a4[m Colorear todos los enlaze y Colorear un enlaze especifico de una clase en a
+[33mc2bf952[m Poner una barra azul sobre un enlaze blog con ::before y agregar una clase en una li de blog de los enlazes
+[33m8efaf63[m Centrar Enlaces Menu en la barra de navegacion
+[33m97fb127[m Centrar Logo en barra de Navegacion y colorear algunas letra de esta en .logo y .log h1 b
+[33m4d16b0f[m Trabajando con Caja Principal de Header, Posicionando logo y enlaces
+[33ma55e13f[m Creacion de Barra de Navegacion, Posicionamiento y Decoracion en Blanco
+[33m817fc60[m Poner Estilos (*) Generales en  Css
+[33mae2a7aa[m Creacion de la 2do subcontenido de header-content donde se crear los enlazes de los menus
+[33m13664f0[m Creacion de Subcontenido donde va el logo
+[33m100846e[m Creacion de Header y Contenido
