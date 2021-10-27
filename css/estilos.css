@@ -377,3 +377,11 @@ article p{
     font-size: 18px;
     color: #3c3c3c;
 }
+
+/* Medidas de imagen de articles */
+article img{
+    /* Tomar todo el anchp */
+    width: 100%;
+    /* Alejar espacio de arriba */
+    margin-top: 20px;
+}
