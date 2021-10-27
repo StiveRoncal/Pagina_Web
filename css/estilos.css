@@ -338,6 +338,23 @@ article{
     box-shadow: -10px 0 20px -30px black;
     border-radius: 6px;
     
+    /*Posicion Para la Linea azul superior encima de article para que se desarrolle */
+    position: relative;
+
+    /*No se que es Especifiamanet pero me decora la linea azul superior*/
+    overflow: hidden;
     
-    
+}
+
+/*Linea azul superior encima de article*/
+article:before{
+    /* Contenido Vacio */
+    content: '';
+    /* Medidas Generales de Eso */
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #46a2fd;
 }
