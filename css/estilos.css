@@ -321,6 +321,10 @@ DE asi
     margin-top: 40px;
 
    /*Corregimos el container-cover : top:80px a margin-top: 80px para solucionar error de ver los articulo a media sobre la portada*/
+
+   /*Separar Articulo con aside*/
+   display: flex;
+   justify-content: center;
 }
 
 /* Medidas de Articulos */
@@ -384,6 +388,7 @@ article img{
     width: 100%;
     /* Alejar espacio de arriba */
     margin-top: 20px;
+    
 }
 
 
@@ -399,11 +404,15 @@ article img{
     border-radius: 6px;
     /*Sombra*/
     box-shadow: 0 0 20px -20px black;
+
+    /*Fondo espaciado entre article y aside*/
+    margin-left: 40px;
 }
 
 /*medida para adecuar el img*/
 .container-aside aside img{
     width: 100%;
+    border-radius:6px ;
 }
 
 /*Adecuacion de espacios para titulo de de y parrafo*/
