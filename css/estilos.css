@@ -385,3 +385,55 @@ article img{
     /* Alejar espacio de arriba */
     margin-top: 20px;
 }
+
+
+
+
+
+
+/*ASIDE decoracion - medidas generales*/
+
+.container-aside aside{
+    /*Medida gran importancia*/
+    width: 320px;
+    border-radius: 6px;
+    /*Sombra*/
+    box-shadow: 0 0 20px -20px black;
+}
+
+/*medida para adecuar el img*/
+.container-aside aside img{
+    width: 100%;
+}
+
+/*Adecuacion de espacios para titulo de de y parrafo*/
+.container-aside aside h2,
+.container-aside aside p{
+    /* Espaciaod de arriba */
+    margin-top: 20px;
+    /* Espacio de adentro de top 0 y right-left 20px */
+    /*Juega con el ancho del h2 y p*/
+    padding: 0 20px;
+   
+}
+
+/*Posicionamiento de boton y tamaño*/
+.container-aside aside button{
+    /*Aliniacion*/
+    margin-top: 20px;
+    margin-left: 20px;
+   /*alineacion pode dentro top left-right*/
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #46a2fd;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/*efecto hover de boton*/
+.container-aside aside button:hover{
+    opacity: .9;
+}
+
