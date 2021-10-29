@@ -405,8 +405,15 @@ article img{
     /*Sombra*/
     box-shadow: 0 0 20px -20px black;
 
-    /*Fondo espaciado entre article y aside*/
-    margin-left: 40px;
+    
+  
+
+     /*Espacio de arriba de aside respetnado alutra de la linea azul y aliniamiento*/
+     margin-left:40px;
+     margin-bottom: 40px;
+     /*alejamineto interno*/
+     padding-bottom: 20px;
+    
 }
 
 /*medida para adecuar el img*/
@@ -439,6 +446,7 @@ article img{
     color: #fff;
     cursor: pointer;
     border-radius: 6px;
+   
 }
 
 /*efecto hover de boton*/
