@@ -540,5 +540,17 @@ footer .redes-footer .fa-instagram:hover{
     /*Medidas color*/
     height: 2px;
     /* Color */
-    color: #a8a8a87a;
+    background:#474B4E;
+    
+}
+
+
+/*Decoracion de h4 para derechso reservado*/
+.container-footer h4{
+    /* Centrado */
+    text-align: center;
+    /* sepacion de afuera haic arriba */
+    margin-top: 40px;
+    /*Tamaño de letra*/
+    font-weight: 500;
 }
