@@ -602,7 +602,7 @@ Adaptivilidad para dispositivos Moviles*********************/
     }
 }
 
-/* 2da Medida */
+/* 2da Medida Responsive*/
 @media screen and (max-width: 1020px){
 
     /* Contenedor de article y aside */
@@ -623,5 +623,35 @@ Adaptivilidad para dispositivos Moviles*********************/
         display: flex;
         justify-content: center;
 
+    }
+}
+
+/* 3ra Medida Responsive*/
+@media screen and (max-width: 800px){
+    /* A. Header 2.Enlaces con clase menu letras de la barra de navegacion y ponermos la barra lateral cuando lleguemos a esa medida
+    */
+    .menu{
+        /* Borra la letras */
+        width: 300px;
+        /* Ocupa todo el alto lo que es la pagina para desplegar hacia abajo creo */
+        height: 100vh;
+        /* Posicion sobre encima de todo */ 
+        position: fixed;
+        /* Porque la barra de nagecion de de height 80px */
+        top: 80px;
+        /* Pegarlo hacia el lado izquierdo */
+        left: 0;
+        /* Color de fonod */
+        background: #fff;
+
+        /* Cortar elemento que pase por la linea 
+        borra lateral de responsive
+
+        |   |borra aqui no se vea, esa 
+        |   |
+        */
+        overflow: hidden;
+         /*Crear un sombre  */
+         box-shadow: 10px 0 20px -25px black;
     }
 }
