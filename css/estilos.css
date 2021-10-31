@@ -454,3 +454,15 @@ article img{
     opacity: .9;
 }
 
+/**************FOOTER - ESTILOS*************************/
+
+/*Trabajando por Caja Principal de Footer*/
+.container-footer{
+    /* Medidas  de todo el largo (%) */
+    width: 100%;
+
+    /*Seperacion Interna top-bottom / right-left */
+    padding: 40px 0;
+    background: #f4f4f4;
+   
+}
