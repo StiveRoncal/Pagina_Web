@@ -587,7 +587,7 @@ footer .redes-footer .fa-instagram:hover{
 /*Response Desing - 
 Adaptivilidad para dispositivos Moviles*********************/
 
-/*Medida Inicial de Response*/
+/*1era Medida Inicial de Response*/
 /* Condicioinal cuando esta en esa medida */
 @media screen and (max-width: 1220px){
     /**Caja Principal de header,articulies,footer, Expecto la fondo de container-cover*/
@@ -599,5 +599,29 @@ Adaptivilidad para dispositivos Moviles*********************/
         max-width: 1000px;
         /* MArgen por dentro top-botton / right-left */
         padding:0 20px;
+    }
+}
+
+/* 2da Medida */
+@media screen and (max-width: 1020px){
+
+    /* Contenedor de article y aside */
+    .container-content{
+        /*Medida de todo  */
+        width: 100%;
+        /* Flex-box pero para ponerse en columna
+        cuando llegue a esa medida
+        */
+        flex-direction: column;
+    }
+    article{
+        /* Desaparecer el box-shadow que teniamos */
+        box-shadow: 0 0 0 0;
+    }
+    /* Hacer que los aside hablen al costado del otro */
+    .container-aside{
+        display: flex;
+        justify-content: center;
+
     }
 }
