@@ -583,3 +583,21 @@ footer .redes-footer .fa-instagram:hover{
     /*Tamaño de letra*/
     font-weight: 500;
 }
+
+/*Response Desing - 
+Adaptivilidad para dispositivos Moviles*********************/
+
+/*Medida Inicial de Response*/
+/* Condicioinal cuando esta en esa medida */
+@media screen and (max-width: 1220px){
+    /**Caja Principal de header,articulies,footer, Expecto la fondo de container-cover*/
+  
+    .header-content,
+    .container-content,
+    .container-footer footer{
+        /* Reducir medida de 1200px a 1000px */
+        max-width: 1000px;
+        /* MArgen por dentro top-botton / right-left */
+        padding:0 20px;
+    }
+}
