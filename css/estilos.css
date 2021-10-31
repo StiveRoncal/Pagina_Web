@@ -466,3 +466,21 @@ article img{
     background: #f4f4f4;
    
 }
+
+/*Medida de Footer dento de la caja principal*/
+.container-footer footer{
+    /* Medida general */
+    max-width: 1200px;
+
+    /*Medida centradas pero de la caja no del logo*/
+    margin: auto;
+}
+
+/* trabajar con logo su contenedor*/
+.container-footer footer .logo-footer{
+    text-align: center;
+}
+/* Tamaño de imagen */
+.container-footer footer .logo-footer img{
+    width: 100px;
+}
