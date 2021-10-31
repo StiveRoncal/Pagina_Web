@@ -530,3 +530,15 @@ footer .redes-footer .fa-instagram:hover{
     background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1,#5443AB);
     color: #fff;
 }
+
+/*Decoracion de linea hr */
+.container-footer footer hr{
+    /*Separcion de afuera haci arriba*/
+    margin-top: 20px;
+    /*Desaparecer border*/
+    border: none;
+    /*Medidas color*/
+    height: 2px;
+    /* Color */
+    color: #a8a8a87a;
+}
