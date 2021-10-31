@@ -665,10 +665,32 @@ Adaptivilidad para dispositivos Moviles*********************/
         /* Medidas generales para li */
         max-width: 200px;
         height: 50px;
-        justify-content: center;
+        /* Elemento al incio de flex */
+        justify-content: flex-start;
     }
     /* Eliminar linea azul sobre un enlace */
     .menu-selected:before{
         width: 0;
+    }
+    /* Etiqueta  a*/
+    .menu nav ul li a{
+        /* Medida exacta para alineacion de enlaces letras para que este parejito*/
+        /* width: 20px; */
+
+        /* separacion de afuera hacia arriba ,separamos icono con enlace al costado del otro no se porque se puedo con eso */
+        margin-top: 40px;
+        /* Color de letras e iconos */
+        color: #858585;
+        
+     
+    }
+    /* Meidad para icones */
+    .menu nav ul li a i{
+        /* Medida */
+        width: 20px; 
+        /* Elemento de linea a bloque */
+        display: inline-block;
+        margin-right: 10px;
+        color: #46a2fd;
     }
 }
