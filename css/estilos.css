@@ -200,6 +200,35 @@ __________________________________________
     color: #46a2fd;
 }
 
+/*Trabajando De icono BARS(REsponsive)*/
+#icon-menu{
+    /* Tamaño Generales */
+    width: 50px;
+    height: 50px;
+    /* Poner el icono al lado superior derecho */
+    position: absolute;
+    /*MEdias para positon absolute este arriba*/
+    right: 20px;
+    top: 16px;
+    /* Agrandar icono bars */
+    font-size: 20px;
+    /* Color contorno */
+    background: #fafafa;
+    border-radius: 100%;
+    color: #787878;
+    /*Centrar en border-radius de bg con felxvox*/
+    display:none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    /*Gardar peño margen en padding*/
+    padding: 10px;
+}
+/*Animacion cuando crusamos poralli*/
+#icon-menu:hover{
+    opacity: .8;
+}
 /*****************************PORTADA*************************************/
 /* Primera Caja de Portada */
 .container-cover{
