@@ -484,3 +484,49 @@ article img{
 .container-footer footer .logo-footer img{
     width: 100px;
 }
+
+/*Trabajo con los logos de redes sociales*/
+.container-footer footer .redes-footer{
+    /*Centrado de Logo*/
+    /*medidea de flexbox*/
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-footer footer .redes-footer .icon-redes-footer{
+    /*Tamanño de icones*/
+    font-size: 20px;
+    /*Espacio de afuera*/
+    margin: 20px;
+    
+    background: #efefef;
+    /*Medida alto y ancho*/
+    width: 50px;
+    height: 50px;
+
+    /*Centrar icones con flex box*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+    color: #a2a2a2;
+}
+
+/*Degradado por los icones de las redes sociales */
+
+footer .redes-footer .fa-facebook-f:hover{
+    background: #41579A;
+    color: #fff;
+}
+
+footer .redes-footer .fa-google-plus-g:hover{
+    background: #DE4C34;
+    color: #fff;
+}
+
+footer .redes-footer .fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1,#5443AB);
+    color: #fff;
+}
