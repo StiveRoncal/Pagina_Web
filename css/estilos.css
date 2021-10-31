@@ -632,7 +632,7 @@ Adaptivilidad para dispositivos Moviles*********************/
     */
     .menu{
         /* Borra la letras */
-        width: 300px;
+        width: 0px;
         /* Ocupa todo el alto lo que es la pagina para desplegar hacia abajo creo */
         height: 100vh;
         /* Posicion sobre encima de todo */ 
@@ -692,5 +692,10 @@ Adaptivilidad para dispositivos Moviles*********************/
         display: inline-block;
         margin-right: 10px;
         color: #46a2fd;
+    }
+
+    /* Cartas de aside estable flex-box para que se adpata  */
+    .container-aside{
+        flex-wrap: wrap;
     }
 }
