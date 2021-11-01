@@ -670,9 +670,21 @@ Adaptivilidad para dispositivos Moviles*********************/
         |   |
         */
         overflow: hidden;
+        /* Esto Trabaja con Responsive js para esocncer la barra lateral original */
+        transform: translateX(-350px);
          /*Crear un sombre  */
          box-shadow: 10px 0 20px -25px black;
     }
+
+    /* Esto trabaja con el RESPONSIVE DESING basicamente es un menu copia, es una clase imaginaria para jugar con el javascript, pimero era .menu, luego se convierte en .show-lateral, creo que es para prueba*/
+    .show-lateral {
+        /* Medida de algo,medida establecia de barra lateral */
+        width: 300px;
+        /* Movimiento de posicion */
+        transform: translateX(0px);
+    }
+
+
 
     /* VAmos a lista desordenado */
     .menu nav ul{
