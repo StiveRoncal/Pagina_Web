@@ -200,6 +200,11 @@ __________________________________________
     color: #46a2fd;
 }
 
+/* Eliminando icon de enlazer en no responsive */
+.menu nav ul li a i{
+    display: none;
+}
+
 /*Trabajando De icono BARS(REsponsive)*/
 #icon-menu{
     /* Tamaño Generales */
@@ -692,6 +697,12 @@ Adaptivilidad para dispositivos Moviles*********************/
         display: inline-block;
         margin-right: 10px;
         color: #46a2fd;
+    }
+
+    /* Visualizar icon bars en esta medida */
+    #icon-menu{
+        /* Visualar barra de bars */
+        display: flex;
     }
 
     /* Cartas de aside estable flex-box para que se adpata  */
