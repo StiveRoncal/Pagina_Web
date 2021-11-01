@@ -633,6 +633,15 @@ Adaptivilidad para dispositivos Moviles*********************/
 
 /* 3ra Medida Responsive*/
 @media screen and (max-width: 800px){
+
+    /* Trabajo con el Contenedor de portada article y footer para movimiento de bars icon */
+    .move-container-all{
+        /* Mover articulo,portada,footer para obtner espacio para barra lateral de respoppnsive mover 300px hacia la derecha*/
+        transform: translateX(300px);
+    }
+
+
+
     /* A. Header 2.Enlaces con clase menu letras de la barra de navegacion y ponermos la barra lateral cuando lleguemos a esa medida
     */
     .menu{
